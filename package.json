@@ -1,0 +1,14 @@
+{
+    "name": "Friend Face",
+    "version": "1.0.0",
+    "description": "Helps you find people with similar interests",
+    "main": "server.js",
+    "dependencies": {
+      "body-parser": "^1.15.0",
+      "express": "^4.13.4"
+    },
+    "scripts": {
+      "start": "node server.js"
+    }
+   }
+   
