@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Survey Page</title>
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://code.jquery.com/jquery.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
+</head>
+<body>
+
+  <div class="container bg-light">
+
+    <div class="jumbotron bg-success text-white">
+      <h1 class="text-center"><span class="fa fa-users"></span> Face Friend</h1>
+      <hr>
+      <h2 class="text-center">Find your friend</h2>
+      <br>
+
+      <div class="text-center">
+        <a href="/"><button class="btn btn-lg btn-default bg-success text-white"><span class="fa fa-home"></span></button></a>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-lg-12">
+
+        <!-- Reservation Page -->
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            <h2 class="panel-title">Face Friend Survey</h2>
+          </div>
+          <div class="panel-body">
+
+            <h3>Please Answer the following questions, 5 meaning you strongly agree and 1 meaning you strongly disagree. </h3>
+
+            <form role="form">
+
+              <div class="form-group">
+                <label for="friend-name">Name</label>
+                <input type="text" class="form-control" id="name">
+              </div>
+
+              <div class="form-group">
+                <label for="friend-photo">Photo</label>
+                <input type="text" class="form-control" id="photo">
+              </div>
+
+              <div class="form-group">
+                <label for="question-one">1. I enjoy outdoor activities. </label><br>
+                <select id ="questionOne">
+                  <option value= " "> </option>
+                  <option value="1"> 1</option>
+                  <option value="2"> 2</option>
+                  <option value="3"> 3</option>
+                  <option value="4"> 4</option>
+                  <option value="5"> 5</option>
+                </select>
+              </div>
+
+              <div class="form-group">
+                <label for="question-two">2. I prefer to stay indoors when socializing. </label><br>
+                <select id ="questionTwo">
+                  <option value= " "> </option>
+                  <option value="1"> 1</option>
+                  <option value="2"> 2</option>
+                  <option value="3"> 3</option>
+                  <option value="4"> 4</option>
+                  <option value="5"> 5</option>
+                </select>
+              </div>
+
+              <div class="form-group">
+                <label for="question-three">3. I consider myself a dog person. </label><br>
+                <select id ="questionThree">
+                  <option value= " "> </option>
+                  <option value="1"> 1</option>
+                  <option value="2"> 2</option>
+                  <option value="3"> 3</option>
+                  <option value="4"> 4</option>
+                  <option value="5"> 5</option>
+                </select>
+              </div>
+
+              <div class="form-group">
+                <label for="question-four">4. I consider myself a cat person.</label><br>
+                <select id ="questionFour">
+                  <option value= " "> </option>
+                  <option value="1"> 1</option>
+                  <option value="2"> 2</option>
+                  <option value="3"> 3</option>
+                  <option value="4"> 4</option>
+                  <option value="5"> 5</option>
+                </select>
+              </div>
+
+              <div class="form-group">
+                <label for="question-five">5. On the thought experiment The Trolly Problem, where by if no action is taken a trolly will run over a group of strangers, 
+                  but if you were to pull a lever the trolly would only hit one person, I would pull the lever. </label><br>
+                  <select id ="questionFive">
+                    <option value= " "> </option>
+                    <option value="1"> 1</option>
+                    <option value="2"> 2</option>
+                    <option value="3"> 3</option>
+                    <option value="4"> 4</option>
+                    <option value="5"> 5</option>
+                  </select>
+              </div>
+
+              <div class="form-group">
+                <label for="question-six">6. I make my bed in the morning. </label><br>
+                <select id ="questionSix">
+                  <option value= " "> </option>
+                  <option value="1"> 1</option>
+                  <option value="2"> 2</option>
+                  <option value="3"> 3</option>
+                  <option value="4"> 4</option>
+                  <option value="5"> 5</option>
+                </select>
+              </div>
+
+              <div class="form-group">
+                <label for="question-seven">7. I like to thoroughly plan out a trip over playing it by ear. </label><br>
+                <select id ="questionSeven">
+                  <option value= " "> </option>
+                  <option value="1"> 1</option>
+                  <option value="2"> 2</option>
+                  <option value="3"> 3</option>
+                  <option value="4"> 4</option>
+                  <option value="5"> 5</option>
+                </select>
+              </div>
+
+              <div class="form-group">
+                <label for="question-eight">8. I spend my free time on reddit.</label><br>
+                <select id ="questionEight">
+                  <option value= " "> </option>
+                  <option value="1"> 1</option>
+                  <option value="2"> 2</option>
+                  <option value="3"> 3</option>
+                  <option value="4"> 4</option>
+                  <option value="5"> 5</option>
+                </select>
+              </div>
+
+              <div class="form-group">
+                <label for="question-nine">9. When alone, I sing loudly and unabashadly. </label><br>
+                <select id ="questionNine">
+                  <option value= " "> </option>
+                  <option value="1"> 1</option>
+                  <option value="2"> 2</option>
+                  <option value="3"> 3</option>
+                  <option value="4"> 4</option>
+                  <option value="5"> 5</option>
+                </select>
+              </div>
+
+              <div class="form-group">
+                <label for="question-ten">10. I can only watch movies made in the last decade, as others feel old. </label><br>
+                <select id ="questionTen">
+                  <option value= " "> </option>
+                  <option value="1"> 1</option>
+                  <option value="2"> 2</option>
+                  <option value="3"> 3</option>
+                  <option value="4"> 4</option>
+                  <option value="5"> 5</option>
+                </select>
+              </div>
+
+
+              <button type="submit" class="btn btn-success submit">Submit</button>
+            </form>
+            <br><br><br>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+
+    <footer class="footer">
+      <div class="container">
+        <p><a href="/api/friends">API Table Link</a> | <a href=" ">GitHub Repo</a></p>
+      </div>
+    </footer>
+
+  </div>
+<div id="resultsModal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h2>Best Match</h2>
+      </div>
+      <div class="modal-body">
+        <h3 id="matchName"></h3>
+        <img id="matchImg" src=" " alt="">
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+</body>
+</html>
+
+
+<script type="text/javascript">
+//need to figure out javascript and see how it can take the data from survey
+//iterate through the arrray.. and do math
+
+    $(".submit").on("click", function(event) {
+      event.preventDefault();
+
+      var newFriend = {
+        name: $("#name").val().trim(),
+        photo: $("#photo").val().trim(),
+        scores: [$("#questionOne").val(), $("#questionTwo").val(), $("#questionThree").val(), $("#questionFour").val(), $("#questionFive").val(),
+        $("#questionSix").val(), $("#questionSeven").val(), $("#questionEight").val(), $("#questionNine").val(), $("#questionTen").val() ]
+      };
+
+      console.log(newFriend);
+
+      // This line is the magic. It"s very similar to the standard ajax function we used.
+      // Essentially we give it a URL, we give it the object we want to send, then we have a "callback".
+      // The callback is the response of the server. In our case, we set up code in api-routes that "returns" true or false
+      // depending on if a tables is available or not.
+
+      $.post("/api/friends", newFriend,
+        function(data) {
+
+          $("#matchName").text(data.name);
+          $("#matchImg").attr("src", data.photo);
+        });
+      
+        $('#resultsModal').modal("toggle");
+        $('#name').val("");
+        $('#photo').val("");
+        $('#questionOne').val("");
+        $('#questionTwo').val("");
+        $('#questionThree').val("");
+        $('#questionFour').val("");
+        $('#questionFive').val("");
+        $('#questionSix').val("");
+        $('#questionSeven').val("");
+        $('#questionEight').val("");
+        $('#questionNine').val("");
+        $('#questionTen').val("");
+
+    });
+
+</script>
