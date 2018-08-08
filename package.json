@@ -1,5 +1,5 @@
 {
-    "name": "Friend Face",
+    "name": "FriendFace",
     "version": "1.0.0",
     "description": "Helps you find people with similar interests",
     "main": "server.js",
