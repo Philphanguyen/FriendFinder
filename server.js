@@ -3,7 +3,7 @@ var bodyParser = require("body-parser");
 //tells node we're creating express server
 var app = express();
 //sets initial port
-const PORT = process.env.port || 3000;
+var PORT = process.env.PORT || 3000;
 //sets up express app to handle data
 app.use(bodyParser.urlencoded({ extended: true}));
 app.use(bodyParser.json());
