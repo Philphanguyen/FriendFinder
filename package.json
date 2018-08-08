@@ -1,15 +1,17 @@
 {
-    "name": "friend-face",
-    "version": "1.0.0",
-    "description": "Helps you find people with similar interests",
-    "main": "server.js",
-    "dependencies": {
-      "body-parser": "^1.15.0",
-      "express": "^4.13.4",
-      "path": "^0.12.7"
-    },
-    "scripts": {
-      "start": "node server.js"
-    }
-   }
-   
+  "name": "friend-face",
+  "version": "1.0.0",
+  "description": "Helps you find people with similar interests",
+  "main": "server.js",
+  "engines": {
+    "node": "8.11.1"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "path": "^0.12.7"
+  },
+  "scripts": {
+    "start": "node server.js"
+  }
+}
